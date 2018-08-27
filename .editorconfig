@@ -1,0 +1,25 @@
+# EditorConfig is awesome: https://EditorConfig.org 在大部分编辑器都生效
+
+# top-most EditorConfig file 不要在往上查找了 例如node_modules
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+charset = utf-8
+
+# tab space 2 4
+indent_style = tab
+indent_size = 2
+
+[*.json}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+

@@ -1,0 +1,3 @@
+# node_modules npm 自动忽略
+src
+test

@@ -1,0 +1,32 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "tiny nodejs static web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack",
+    "fix": "eslint --fix",
+    "lint": "eslint ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/color1004/anydoor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/color1004/anydoor/issues"
+  },
+  "homepage": "https://github.com/color1004/anydoor#readme"
+}
