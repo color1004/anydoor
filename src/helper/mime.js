@@ -5,8 +5,8 @@ const mimeTypes = {
     'xml': 'text/xml',
     'html': 'text/html',
     'js': 'text/javascript',
-    'json': 'application/json',
     'txt': 'text/plain',
+    'json': 'application/json',
 }
 
 module.exports = (filePath) => {
