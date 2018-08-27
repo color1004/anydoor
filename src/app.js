@@ -8,7 +8,7 @@ const route = require('./helper/route');
 const server = http.createServer((req, res) => {
 
 	const filePath = path.join(conf.root, req.url);
-	// route(req, res, filePath);
+	route(req, res, filePath);
 
 	/* fs.stat(filePath, (err, stats) => {
 		if(err) {
@@ -33,9 +33,9 @@ const server = http.createServer((req, res) => {
 		}
 	}); */
 
-	res.statusCode = 200;
-	res.setHeader('Content-type', 'text/plain');
-	res.end(filePath);
+	// res.statusCode = 200;
+	// res.setHeader('Content-type', 'text/plain');
+	// res.end(filePath);
 
 	// res.write('<html>');
 	// res.write('<body>');
